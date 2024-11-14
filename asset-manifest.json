@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rent-easy/static/css/main.0fe8b037.css",
+    "main.js": "/rent-easy/static/js/main.e2f4678a.js",
+    "static/js/453.a97e9831.chunk.js": "/rent-easy/static/js/453.a97e9831.chunk.js",
+    "static/media/img2.jpg": "/rent-easy/static/media/img2.16b6dd99ffce78a42d43.jpg",
+    "static/media/img1.jpg": "/rent-easy/static/media/img1.964a45527a1271f380c9.jpg",
+    "index.html": "/rent-easy/index.html",
+    "main.0fe8b037.css.map": "/rent-easy/static/css/main.0fe8b037.css.map",
+    "main.e2f4678a.js.map": "/rent-easy/static/js/main.e2f4678a.js.map",
+    "453.a97e9831.chunk.js.map": "/rent-easy/static/js/453.a97e9831.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fe8b037.css",
+    "static/js/main.e2f4678a.js"
+  ]
+}
