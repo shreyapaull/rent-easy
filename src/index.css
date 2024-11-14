@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Example: card styling */
+.card1 {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation on hover */
+    margin-right: 100px;
+
+  }
+  
+  /* Change card color and scale on hover */
+  .card1:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /* Deeper shadow on hover */
+  }
+  
+  /* Styling for card image */
+  .card1 img {
+    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+    object-fit: cover; /* Ensure the image fits */
+  }
+  
+  /* Custom styles for Card Title */
+  .card1 .card-title {
+    
+    color: #007bff;
+   
+  }
+ /* General styling for bike cards */
+.bike-card-col {
+  margin-bottom: 20px; /* Add space between cards */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For screens wider than 992px (desktops) */
+@media (min-width: 992px) {
+  .bike-card-col {
+    max-width: 30%; /* Fit more cards in a row */
+  }
+}
+
+/* For medium screens (tablets) between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bike-card-col {
+    max-width: 33.33%; /* Show 3 cards in a row */
+  }
+}
+
+/* For small screens (e.g., 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .bike-card-col {
+    max-width: 50%; /* Show 2 cards in a row */
+  }
+}
+
+/* For very small screens (less than 576px, typical mobile) */
+@media (max-width: 575px) {
+  .bike-card-col {
+    max-width: 100%; /* Show 1 card per row */
+  }
+}
+#carouselExampleRide{
+  margin-bottom: 50px;
 }
